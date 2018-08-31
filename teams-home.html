@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+
 	<script>
 		$(document).ready(function(){
 			$("#myLoginBtn").click(function(){
 				$("#myLoginModal").modal();
 			});
 		});
-		
+
 		$(document).ready(function(){
 			$("#mySignUpBtn").click(function(){
 				$("#mySignUpModal").modal();
 			});
 		});
 	</script>
-		
-		
-	
+
+
+
 	<style>
 	.modal-header, h4, .close {
 		  background-color: #5cb85c;
@@ -37,16 +37,16 @@
 		  background-color: #f9f9f9;
 	  }
 	</style>
-	
+
 	<title>CricViz Home</title>
-	
+
   </head>
   <body>
 
 	<!-- Login Modal -->
 	  <div class="modal fade" id="myLoginModal" role="dialog">
 		<div class="modal-dialog">
-		
+
 		  <!-- Modal content-->
 		  <div class="modal-content">
 			<div class="modal-header" style="padding:35px 50px; text-align: center;">
@@ -73,18 +73,18 @@
 			  <p> Not a member? <a href="#">Sign Up</a></p>
 			</div>
 			<div class="modal-footer">
-			  <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal" ><span class="glyphicon glyphicon-remove"></span> Cancel</button>	  
+			  <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal" ><span class="glyphicon glyphicon-remove"></span> Cancel</button>
 			</div>
 		  </div>
-		  
+
 		</div>
 	  </div>
-	  
-	  
+
+
 	  <!-- Sign Up Modal -->
 	  <div class="modal fade" id="mySignUpModal" role="dialog">
 		<div class="modal-dialog">
-		
+
 		  <!-- Modal content-->
 		  <div class="modal-content">
 			<div class="modal-header" style="padding:35px 50px;">
@@ -112,13 +112,13 @@
 			  </form>
 			</div>
 			<div class="modal-footer">
-			  <button type="submit" style="float: right;" class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="glyphicon glyphicon-remove"></span> Cancel</button>	  
+			  <button type="submit" style="float: right;" class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="glyphicon glyphicon-remove"></span> Cancel</button>
 			</div>
 		  </div>
-		  
+
 		</div>
 	  </div>
-  
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">CricViz</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,44 +128,44 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Live Scores</a>
+            <a class="nav-link" href="livescores-home.html">Live Scores</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Teams
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Teams Home</a>
+              <a class="list-group-item list-group-item-action " href="teams-home.html">Teams Home</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Pakistan</a>
-              <a class="dropdown-item" href="#">India</a>
-              <a class="dropdown-item" href="#">Australia</a>
-              <a class="dropdown-item" href="#">England</a>
-              <a class="dropdown-item" href="#">South Africa</a>
-              <a class="dropdown-item" href="#">Srilanka</a>
-              <a class="dropdown-item" href="#">West Indies</a>
-              <a class="dropdown-item" href="#">Zimbabwe</a>
-              <a class="dropdown-item" href="#">Bangladesh</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary " href="Pakistan-home.html">Pakistan</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">India</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">Australia</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">England</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">South Africa</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">Srilanka</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">West Indies</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">Zimbabwe</a>
+              <a class="list-group-item list-group-item-action list-group-item-primary" href="#">Bangladesh</a>
 
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Player Insights</a>
+            <a class="nav-link" href="playersinsights-home.html">Player Insights</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Follow Players</a>
+            <a class="nav-link" href="followplayers-home.html">Follow Players</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Follow Teams</a>
+            <a class="nav-link" href="followteams-home.html">Follow Teams</a>
           </li>
         </ul>
 
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search for players/teams" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-dark btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
       <div class="btn-group" role="group" aria-label="Basic example">
@@ -176,32 +176,29 @@
       </div>
     </nav>
 
-	
+
 	<div class="row">
 		<div class="card-deck">
 		  <div class="col-sm-8">
-			<div class="card">
-			<img class="card-img-top" src="images/main-article.jpg" alt="Card image cap">
-			  <div class="card-body">
-				<h2 class="card-title">Sam Curran lifts England to 246</h2>
-				<p class="card-text">India's fast bowlers cut through the English top order, but Curran rescued England from 86 for 6</p>
-				<a href="#" class="btn btn-primary">Read Complete Article</a>
-			  </div>
-			    <div class="card-footer">
-					<small class="text-muted">Author: Andrew Miller</small>
-			    </div>
-			</div>
-			<div class="card">
-			<img class="card-img-top" src="images/main-article-2.jpg" alt="Card image cap">
-			  <div class="card-body">
-				<h2 class="card-title">India beating Australia in Kolkata</h2>
-				<p class="card-text">What we remember #6</p>
-				<a href="#" class="btn btn-primary">Read Complete Article</a>
-			  </div>
-			    <div class="card-footer">
-					<small class="text-muted">Author: Jarrob Kimber</small>
-			    </div>
-			</div>
+  			<div class="card">
+  			  <div class="card-body">
+  				<h1 class="card-title">Cricket Teams Index (Popular International Teams)</h1><br><br>
+            <ul class="list-group ">
+            <a href="Pakistan-home.html" class="card-link">Pakistan</a><br>
+            <a href="#" class="card-link">India</a><br>
+            <a href="#" class="card-link">Australia</a><br>
+            <a href="#" class="card-link">England</a><br>
+            <a href="#" class="card-link">Srilanka</a><br>
+            <a href="#" class="card-link">South Africa</a><br>
+            <a href="#" class="card-link">New Zealand</a><br>
+            <a href="#" class="card-link">Bangladesh</a><br>
+            <a href="#" class="card-link">Zimbabwe</a><br>
+            <a href="#" class="card-link">Ireland</a><br>
+            <a href="#" class="card-link">Afghanistan</a><br>
+            </ul>
+  			  </div>
+  			</div>
+
 		  </div>
 		  <div class="col-sm-4">
 			<div class="card">
@@ -214,21 +211,10 @@
 					<a href="#" class="card-link">Kirsten replaces Vettori as RCB coach</a><br>
 					<a href="#" class="card-link">Nasir Jamshed banned for 10 years by PCB</a><br>
 				  </ul>
-				
+
 			  </div>
 			</div>
-			<div class="card">
-			<img class="card-img-top" src="images/sideline-1.jpg" alt="Card image cap">
-			  <div class="card-body">
-				<a class="card-title" href="#">What's the best length to bowl?</a>
-			  </div>
-			</div>
-			<div class="card">
-			<img class="card-img-top" src="images/sideline-2.jpg" alt="Card image cap">
-			  <div class="card-body">
-				<a class="card-title" href="#">Who's leading in every format</a>
-			  </div>
-			</div>
+
 		  </div>
 		</div>
 	</div>
